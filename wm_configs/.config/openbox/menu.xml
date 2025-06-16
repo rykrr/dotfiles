@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?><openbox_pipe_menu xmlns="http://openbox.org/"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://openbox.org/" >
+<menu id="openbox-Development" label="Development"  >
+<item label="Python (v3.11)" icon="/usr/share/pixmaps/python3.11.xpm" ><action name="Execute"><command><![CDATA[evte -e /usr/bin/python3.11]]></command></action></item>
+<item label="Kate" ><action name="Execute"><command><![CDATA[kate -b]]></command></action></item>
+</menu>
+<menu id="openbox-Internet" label="Internet"  >
+<item label="Mail Reader" ><action name="Execute"><command><![CDATA[exo-open --launch MailReader]]></command></action></item>
+<item label="Konqueror" ><action name="Execute"><command><![CDATA[kfmclient openURL %u text/html]]></command></action></item>
+<item label="Bookmark Editor" ><action name="Execute"><command><![CDATA[keditbookmarks]]></command></action></item>
+<item label="KNetAttach" ><action name="Execute"><command><![CDATA[knetattach]]></command></action></item>
+<item label="Firefox ESR" ><action name="Execute"><command><![CDATA[/usr/lib/firefox-esr/firefox-esr]]></command></action></item>
+<item label="Konqueror" ><action name="Execute"><command><![CDATA[konqueror]]></command></action></item>
+<item label="Web Browser" ><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser]]></command></action></item>
+<item label="Konqueror" ><action name="Execute"><command><![CDATA[konqueror]]></command></action></item>
+</menu>
+<menu id="openbox-System" label="System"  >
+<item label="Log Out" ><action name="Execute"><command><![CDATA[xfce4-session-logout]]></command></action></item>
+<item label="Thunar File Manager" ><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+<item label="Hardware Locality lstopo" ><action name="Execute"><command><![CDATA[lstopo]]></command></action></item>
+<item label="kitty" ><action name="Execute"><command><![CDATA[kitty]]></command></action></item>
+<item label="Konqueror" ><action name="Execute"><command><![CDATA[kfmclient openURL]]></command></action></item>
+<item label="Htop" icon="/usr/share/pixmaps/htop.png" ><action name="Execute"><command><![CDATA[evte -e htop]]></command></action></item>
+<item label="Crashed Processes Viewer" ><action name="Execute"><command><![CDATA[drkonqi-coredump-gui]]></command></action></item>
+<item label="Dolphin" ><action name="Execute"><command><![CDATA[dolphin]]></command></action></item>
+<item label="Konsole" ><action name="Execute"><command><![CDATA[konsole]]></command></action></item>
+<item label="Konqueror" ><action name="Execute"><command><![CDATA[kfmclient openURL %u inode/directory]]></command></action></item>
+<item label="Konqueror" ><action name="Execute"><command><![CDATA[kfmclient openURL %u application/x-webarchive]]></command></action></item>
+</menu>
+<menu id="openbox-Multimedia" label="Multimedia"  >
+<item label="PulseAudio Volume Control" ><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+</menu>
+<menu id="openbox-Utilities" label="Utilities"  >
+<item label="KFind" ><action name="Execute"><command><![CDATA[kfind]]></command></action></item>
+<item label="KWrite" ><action name="Execute"><command><![CDATA[kwrite]]></command></action></item>
+<item label="Klipper" ><action name="Execute"><command><![CDATA[klipper]]></command></action></item>
+<item label="KFontView" ><action name="Execute"><command><![CDATA[kfontview]]></command></action></item>
+<item label="Terminal Emulator" ><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+<item label="KNewStuff Dialog" ><action name="Execute"><command><![CDATA[knewstuff-dialog]]></command></action></item>
+<item label="Emoji Selector" ><action name="Execute"><command><![CDATA[plasma-emojier]]></command></action></item>
+<item label="Application Finder" ><action name="Execute"><command><![CDATA[xfce4-appfinder]]></command></action></item>
+<item label="Vim" ><action name="Execute"><command><![CDATA[evte -e vim]]></command></action></item>
+<item label="Kate" ><action name="Execute"><command><![CDATA[kate -b]]></command></action></item>
+<item label="About Xfce" ><action name="Execute"><command><![CDATA[xfce4-about]]></command></action></item>
+<item label="Bulk Rename" ><action name="Execute"><command><![CDATA[thunar --bulk-rename]]></command></action></item>
+<item label="Run Program..." ><action name="Execute"><command><![CDATA[xfce4-appfinder --collapsed]]></command></action></item>
+<item label="picom" ><action name="Execute"><command><![CDATA[picom]]></command></action></item>
+<item label="File Manager" ><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+</menu>
+<menu id="openbox-Settings" label="Settings"  >
+<item label="Notifications" ><action name="Execute"><command><![CDATA[xfce4-notifyd-config]]></command></action></item>
+<item label="Accessibility" ><action name="Execute"><command><![CDATA[xfce4-accessibility-settings]]></command></action></item>
+<item label="File Manager Settings" ><action name="Execute"><command><![CDATA[thunar-settings]]></command></action></item>
+<item label="Appearance" ><action name="Execute"><command><![CDATA[xfce4-appearance-settings]]></command></action></item>
+<item label="Customize Look and Feel" ><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+<item label="Monitor Settings" ><action name="Execute"><command><![CDATA[lxrandr]]></command></action></item>
+<item label="Window Manager Tweaks" ><action name="Execute"><command><![CDATA[xfwm4-tweaks-settings]]></command></action></item>
+<item label="Session and Startup" ><action name="Execute"><command><![CDATA[xfce4-session-settings]]></command></action></item>
+<item label="Color Profiles" ><action name="Execute"><command><![CDATA[xfce4-color-settings]]></command></action></item>
+<item label="Removable Drives and Media" ><action name="Execute"><command><![CDATA[thunar-volman-settings]]></command></action></item>
+<item label="Mouse and Touchpad" ><action name="Execute"><command><![CDATA[xfce4-mouse-settings]]></command></action></item>
+<item label="Workspaces" ><action name="Execute"><command><![CDATA[xfwm4-workspace-settings]]></command></action></item>
+<item label="Keyboard" ><action name="Execute"><command><![CDATA[xfce4-keyboard-settings]]></command></action></item>
+<item label="Panel" ><action name="Execute"><command><![CDATA[xfce4-panel --preferences]]></command></action></item>
+<item label="Window Manager" ><action name="Execute"><command><![CDATA[xfwm4-settings]]></command></action></item>
+<item label="Display" ><action name="Execute"><command><![CDATA[xfce4-display-settings]]></command></action></item>
+<item label="Openbox Configuration Manager" icon="/usr/share/pixmaps/obconf.png" ><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+<item label="Settings Editor" ><action name="Execute"><command><![CDATA[xfce4-settings-editor]]></command></action></item>
+<item label="Desktop" ><action name="Execute"><command><![CDATA[xfdesktop-settings]]></command></action></item>
+<item label="KColorSchemeEditor" ><action name="Execute"><command><![CDATA[kcolorschemeeditor]]></command></action></item>
+<item label="PulseAudio Volume Control" ><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+<item label="Settings Manager" ><action name="Execute"><command><![CDATA[xfce4-settings-manager]]></command></action></item>
+<item label="Default Applications" ><action name="Execute"><command><![CDATA[xfce4-mime-settings]]></command></action></item>
+</menu>
+</openbox_pipe_menu>

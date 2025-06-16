@@ -1,0 +1,32 @@
+# System utils
+silversearcher-ag
+ripgrep
+htop
+tmux
+tree
+xxd
+fzf
+
+# Web utils
+wget
+curl
+git
+
+# Editors
+vim
+
+# Compilers
+build-essential
+clang
+gcc
+
+# Network Tools
+inetutils-tools
+netcat-openbsd
+forensics-all
+tcpdump
+nmap
+
+# Fun
+figlet
+toilet

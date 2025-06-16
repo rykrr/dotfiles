@@ -1,0 +1,3 @@
+setxkbmap dvorak &
+feh --bg-fill $HOME/.config/openbox/background.png &
+picom -cfD5 & 

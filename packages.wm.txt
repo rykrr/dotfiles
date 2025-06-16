@@ -1,0 +1,28 @@
+# Terminal
+kitty
+
+# Compositor
+picom
+
+# Window Managers
+openbox
+bspwm
+picom
+
+# Background
+feh
+
+# Theme
+lxappearance
+lxappearance-obconf
+breeze-cursor-theme
+breeze-icon-theme
+breeze-gtk-theme
+
+# Bar
+polybar
+rofi
+
+# Display Manager / Configuration
+xinit
+lxrandr
