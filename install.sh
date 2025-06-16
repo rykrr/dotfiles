@@ -61,7 +61,7 @@ neovim_install() {
 
 	popd >/dev/null
 
-	cp -r nvim_configs/* $HOME
+	cp -r nvim_configs/.* $HOME
 }
 
 docker_install() {
@@ -81,7 +81,7 @@ docker_install() {
 
 wm_install() {
 	sudo apt install -y $(sed '/^#/d' < packages.wm.txt)
-	cp -r wm_configs/* $HOME
+	cp -r wm_configs/.* $HOME
 }
 
 
